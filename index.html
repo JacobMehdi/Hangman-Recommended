@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <h1 class="Hangman_design">HANGMAN</h1>
+        <h3 class="memories">2000s style</h3>
+    </div>
+
+    <div class="container">
+
+        <h2 id="game-soundtrack"></h2>
+
+        <div id="game_div"><img id="game_image" src="./img/maxresdefault.jpg" alt="hangman board game ffrom 2000s"></div>
+        <section id="game-section">
+             <div>
+                <p>Press any key to started!</p>
+                <div id="wins"></div>
+             </div>
+           <div id="current-word-section">
+               <h3 class="section-title">Current Word</h3>
+               <div id="current-word"></div>
+           </div>
+
+           <div id="trials-remaining-section">
+               <h3 class="number-of-guesses">Number of Guesses remaining</h3>
+               <div id="trials-remaining"></div>
+           </div>
+           <div id="guessed-letter-section">
+               <h3 class="number-of-guesses">Letters already Guessed!</h3>
+               <div id="guessed-letters"></div>
+           </div>
+
+        </section>
+    </div>
+
+    <script type="text/javascript" src="./data.js"></script>
+    
+</body>
+</html>
